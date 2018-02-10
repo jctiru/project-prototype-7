@@ -8,8 +8,8 @@
 	<hr>
 	<small>Written on {{$post->created_at}}</small>
 	<hr>
-	<a href="/posts/{{$post->id}}" class="btn btn-default">Edit</a>
-	<form action="/posts" method="POST" class="pull-right">
+	<a href="/posts/{{$post->id}}/edit" class="btn btn-default">Edit</a>
+	<form action="/posts/{{$post->id}}" method="POST" class="pull-right">
 		{{ csrf_field() }}
 		{{-- For DELETE requests --}}
 		{{-- <input name="_method" type="hidden" value="DELETE"> --}}
