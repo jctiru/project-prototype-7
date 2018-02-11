@@ -5,7 +5,7 @@ Laravel from scratch website/blog application using:
 - PHP
 - MySQL
 - Bootstrap 3
-- CKEditor
+- Laravel - CKEditor
 
 Based on Laravel From Scratch of Brad Traversy:
 - https://github.com/bradtraversy/lsapp
